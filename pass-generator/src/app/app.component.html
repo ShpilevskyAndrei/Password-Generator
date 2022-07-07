@@ -1,0 +1,44 @@
+<div class="main-container">
+  <div class="main-container-content">
+    <h1>RANDOM PASSWORD GENERATOR</h1>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter password length</mat-label>
+      <input matInput id="passL" type="number" [formControl]="passwordLength" />
+      <mat-hint
+        >*If you did not enter the length of the password - there will be 10
+        characters</mat-hint
+      >
+    </mat-form-field>
+    <p class="info"></p>
+    <div class="button-container">
+      <button
+        mat-raised-button
+        (click)="getPassword(passwordLength.value); spin()"
+      >
+        Generate your password
+      </button>
+      <mat-icon
+        class="spinner-icon"
+        *ngIf="password"
+        [ngClass]="spinner ? 'spinner-icon-action' : 'spinner-icon-non-action'"
+        (click)="getPassword(passwordLength.value); spin()"
+        >autorenew</mat-icon
+      >
+    </div>
+    <p
+      class="password"
+      id="myPass"
+      *ngIf="password"
+      [ngClass]="passwordCopied ? 'password-copied' : ''"
+      (click)="copyPassword(password); spin()"
+    >
+      {{ password }}"
+    </p>
+    <p *ngIf="password && !passwordCopied">
+      Click on password to copy to clipboard
+    </p>
+    <p class="text-under-pass-copied" *ngIf="passwordCopied">
+      Password copied to clipboard
+    </p>
+  </div>
+</div>
