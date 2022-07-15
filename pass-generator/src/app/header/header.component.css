@@ -1,0 +1,51 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-size: xx-large;
+    background-color: #8394c1;
+    border: white;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+span {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.activeTab {
+    background-color: #8394c1;
+    border: white;
+    color: white;
+    transition: background-color 2s, transform 2s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-size: xx-large;
+    color: #8394c1;
+    cursor: pointer;
+}
+
+.logo-icon:hover {
+    transition: ease-in-out 1s;
+    transform: rotate(-90deg);
+}

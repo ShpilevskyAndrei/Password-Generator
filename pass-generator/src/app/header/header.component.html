@@ -1,0 +1,25 @@
+<mat-toolbar class="header-container">
+    <div class="logo-container">
+        <mat-icon class="logo-icon" (click)="reloadPage()">autorenew</mat-icon>
+        <span class="logo-text" (click)="reloadPage()">R&omizer</span>
+    </div>
+    <div>
+        <span
+            class="generators"
+            [ngClass]="isPasswordTab ? 'activeTab' : 'inactiveTab'"
+            (click)="choosePasswordTab(true)"
+            >{{ tab.password }}
+        </span>
+        <span
+            class="generators"
+            [ngClass]="isNumberTab ? 'activeTab' : 'inactiveTab'"
+            (click)="chooseNumberTab(true)"
+            >{{ tab.number }}</span
+        >
+    </div>
+    <span>
+        <a href="https://www.linkedin.com/in/shpilevskyandrei/" target="_blank">
+            Developed by Shpilevsky
+        </a>
+    </span>
+</mat-toolbar>

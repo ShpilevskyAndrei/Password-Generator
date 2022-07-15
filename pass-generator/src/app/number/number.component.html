@@ -1,0 +1,53 @@
+<div class="main-container">
+    <div class="main-container-content">
+        <h1>RANDOM NUMBER GENERATOR</h1>
+        <mat-form-field appearance="outline">
+            <mat-label>Enter min number</mat-label>
+            <input
+                matInput
+                id="minNumber"
+                type="number"
+                [formControl]="minNumber"
+            />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Enter max number (until 1 million)</mat-label>
+            <input
+                matInput
+                id="maxNumber"
+                type="number"
+                [formControl]="maxNumber"
+            />
+        </mat-form-field>
+        <p class="info"></p>
+        <div class="button-container">
+            <button mat-raised-button (click)="getRandomSignNumber(); spin()">
+                Generate number
+            </button>
+            <mat-icon
+                class="spinner-icon"
+                *ngIf="number"
+                [ngClass]="
+                    spinner ? 'spinner-icon-action' : 'spinner-icon-non-action'
+                "
+                (click)="getRandomSignNumber(); spin()"
+                >autorenew</mat-icon
+            >
+        </div>
+        <p
+            class="password"
+            id="myPass"
+            *ngIf="number"
+            [ngClass]="numberCopied ? 'password-copied' : ''"
+            (click)="copyNumber(); spin()"
+        >
+            {{ number }}
+        </p>
+        <p *ngIf="number && !numberCopied">
+            Click on number to copy to clipboard
+        </p>
+        <p class="text-under-pass-copied" *ngIf="numberCopied">
+            Number copied to clipboard
+        </p>
+    </div>
+</div>
