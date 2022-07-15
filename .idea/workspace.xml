@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4abcfb5f-f79f-41ec-baf0-aecd8f1cc433" name="Changes" comment="ws" />
+    <list default="true" id="4abcfb5f-f79f-41ec-baf0-aecd8f1cc433" name="Changes" comment="ws">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/header/enums/111.html" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/header/enums/111.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/password/consts/consts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/consts/consts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/password/password.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/password/password.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/password/password.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/password/password.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/password/password.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pass-generator/src/app/password/password.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass-generator/src/app/password/password.service.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -21,27 +41,34 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BOnXaAgz6O2kYxgR3YP7YcNuL3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GIT/Pass-Generator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\User\\Desktop\\random-pass\\node_modules\\prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\GIT\\Pass-Generator\\pass-generator\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/GIT/Pass-Generator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\User\\Desktop\\random-pass\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "C:\\GIT\\Password-Generator\\pass-generator\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GIT\Password-Generator\pass-generator\src" />
       <recent name="C:\GIT\Pass-Generator\pass-generator\src\app" />
       <recent name="C:\GIT\Pass-Generator\pass-generator\src" />
       <recent name="C:\Users\User\Desktop\random-pass\src\app\password\consts" />
@@ -59,7 +86,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
+      <package-json value="$PROJECT_DIR$/pass-generator/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -87,6 +114,11 @@
       <workItem from="1657224031855" duration="250000" />
       <workItem from="1657224353354" duration="367000" />
       <workItem from="1657225581501" duration="210000" />
+      <workItem from="1657468849042" duration="5400000" />
+      <workItem from="1657546722231" duration="1710000" />
+      <workItem from="1657559110707" duration="12260000" />
+      <workItem from="1657618976221" duration="675000" />
+      <workItem from="1657647851794" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="ws">
       <created>1657225751343</created>
@@ -115,5 +147,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ws" />
     <option name="LAST_COMMIT_MESSAGE" value="ws" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

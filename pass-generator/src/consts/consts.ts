@@ -98,3 +98,4 @@ export const ALL_SIGNS = [
   ...SIGNS.SYMBOLS,
 ];
 export const ALL_SIGNS_L = ALL_SIGNS.length;
+export const SIGNS_NUMBERS_L = SIGNS.NUMBERS.length
